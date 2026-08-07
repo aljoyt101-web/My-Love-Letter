@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Baby ❤️</title>
+
+    <!-- Pixel Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div id="hearts-container"></div>
+
+    <!-- ========================= -->
+    <!-- LOADING -->
+    <!-- ========================= -->
+
+    <section id="loading" class="screen active">
+
+        <div class="window">
+
+            <div class="loading-heart">❤️</div>
+
+            <h2>Loading something made especially for my Baby...</h2>
+
+            <div class="loading-bar">
+
+                <div id="progress"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- WELCOME -->
+    <!-- ========================= -->
+
+    <section id="welcome" class="screen">
+
+        <div class="window">
+
+            <h1>Hi, Baby ❤️</h1>
+
+            <p>
+                I made something special just for you.
+            </p>
+
+            <button id="startBtn">
+                Start →
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- STORY -->
+    <!-- ========================= -->
+
+    <section id="story" class="screen">
+
+        <div class="window">
+
+            <h2>Our Story 🌸</h2>
+
+            <p id="storyText"></p>
+
+            <button id="storyNext">
+                Next →
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- MEMORIES -->
+    <!-- ========================= -->
+
+    <section id="gallery" class="screen">
+
+        <div class="window">
+
+            <h2>Our Memories 📸</h2>
+
+            <div class="memory-buttons">
+
+                <button class="memoryBtn"
+                    data-img="images/photo1.jpg"
+                    data-text="❤️ One of my favorite memories.">
+                    Memory 1 ❤️
+                </button>
+
+                <button class="memoryBtn"
+                    data-img="images/photo2.jpg"
+                    data-text="🌸 I'll never forget this day.">
+                    Memory 2 🌸
+                </button>
+
+                <button class="memoryBtn"
+                    data-img="images/photo3.jpg"
+                    data-text="🥹 Still makes me smile.">
+                    Memory 3 🥹
+                </button>
+
+                <button class="memoryBtn"
+                    data-img="images/photo4.jpg"
+                    data-text="✨ One more memory forever.">
+                    Memory 4 ✨
+                </button>
+
+            </div>
+
+            <img id="memoryImage" src="" alt="Memory">
+
+            <p id="memoryText">
+                Click a memory ❤️
+            </p>
+
+            <button id="galleryNext">
+                Continue →
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- QUICK QUESTION -->
+    <!-- ========================= -->
+
+    <section id="quiz" class="screen">
+
+        <div class="window">
+
+            <h2>Quick Question ❤️</h2>
+
+            <h3>
+                Do you feel our love will last until the end?
+            </h3>
+
+            <div class="questionButtons">
+
+                <button id="quizYes">
+                    ❤️ Yes
+                </button>
+
+                <button id="quizNo">
+                    💔 No
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- COUNTDOWN -->
+    <!-- ========================= -->
+
+    <section id="countdown" class="screen">
+
+        <div class="window">
+
+            <h2>Close your eyes... ❤️</h2>
+
+            <h1 id="timer">3</h1>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- BIG QUESTION -->
+    <!-- ========================= -->
+
+    <section id="question" class="screen">
+
+        <div class="window">
+
+            <div class="bigHeart">
+                ❤️
+            </div>
+
+            <h2 id="typewriter"></h2>
+
+            <div class="questionButtons">
+
+                <button id="yesBtn">
+                    💖 YES
+                </button>
+
+                <button id="noBtn">
+                    🤍 NO
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- CELEBRATION -->
+    <!-- ========================= -->
+
+    <section id="celebration" class="screen">
+
+        <div class="window">
+
+            <h1>YOU SAID YES!! ❤️</h1>
+
+            <p>
+                You just made me the happiest person alive.
+            </p>
+
+            <button id="celebrateNext">
+                One Last Thing →
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- DATE -->
+    <!-- ========================= -->
+
+    <section id="date" class="screen">
+
+        <div class="window">
+
+            <h2>
+                When man ta mag esmiringhoy? 🤭
+            </h2>
+
+            <input
+                type="date"
+                id="datePicker">
+
+            <br><br>
+
+            <button id="dateNext">
+                Pick this date ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- ENDING -->
+    <!-- ========================= -->
+
+    <section id="ending" class="screen">
+
+        <div class="window">
+
+            <h1>Thank You ❤️</h1>
+
+            <p>
+
+                Thank you for making me the happiest guy alive.
+
+                <br><br>
+
+                I promise to always choose you.
+
+                <br><br>
+
+                I promise to always appreciate you.
+
+                <br><br>
+
+                I can't wait to make more memories with you.
+
+                <br><br>
+
+                I love you, Baby. ❤️
+
+            </p>
+
+            <button id="replay">
+                Replay ↺
+            </button>
+
+            <p class="madeBy">
+                Made with ❤️ by Aljo
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MUSIC -->
+    <audio id="music" loop>
+        <source src="Music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- CONFETTI -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
