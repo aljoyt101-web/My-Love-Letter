@@ -706,3 +706,38 @@ button:hover{
     transition:.35s;
 
 }
+
+/* =========================
+MOBILE MEMORY FIX
+========================= */
+
+@media (max-width: 700px) {
+
+    .screen {
+        overflow-y: auto;
+        align-items: flex-start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .window {
+        max-height: 90vh;
+        overflow-y: auto;
+        margin: 20px 0;
+    }
+
+    #memoryDisplay {
+        margin-top: 15px;
+    }
+
+    #memoryImage {
+        max-height: 250px;
+        object-fit: contain;
+    }
+
+    #galleryNext {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
